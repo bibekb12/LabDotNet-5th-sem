@@ -21,8 +21,8 @@ namespace LabDotNet
             {
                 Console.Write(numbers[i] + " ");
             }
-            COnsole.WriteLine();
-            COnsole.ReadLine();
+            Console.WriteLine();
+            Console.ReadLine();
 
         }
     }

@@ -17,7 +17,7 @@ namespace LabDotNet
             q1.OddEvenFnction();
             q2.SumArray();
             q3.MaxMinDifference();
-            q4.
+            q4.ReplaceNegative();
         }
     }
 }

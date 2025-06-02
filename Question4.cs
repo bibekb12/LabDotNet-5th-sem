@@ -8,9 +8,9 @@ namespace LabDotNet
         {
             int[] numbers = new int[10];
             Console.WriteLine("Feed 10 integers (with negative value): ");
-            for (int i = 0; i <.numbers.Length; i++)
+            for (int i = 0; i <numbers.Length; i++)
             {
-                console.Write($"Element {i + 1}:");
+                Console.Write($"Element {i + 1}:");
                 numbers[i] = int.Parse(Console.ReadLine());
 
                 if (numbers[i] < 0)
@@ -19,7 +19,7 @@ namespace LabDotNet
             Console.WriteLine("Updated negative array with zero '0':");
             foreach (int num in numbers)
             {
-                Consle.Write(num + " ");
+                Console.Write(num + " ");
             }
             Console.WriteLine();
             Console.ReadLine();
