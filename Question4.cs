@@ -8,7 +8,7 @@ namespace LabDotNet
         {
             int[] numbers = new int[10];
             Console.WriteLine("Feed 10 integers (with negative value): ");
-            for (int i = 0; i <numbers.Length; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
                 Console.Write($"Element {i + 1}:");
                 numbers[i] = int.Parse(Console.ReadLine());
