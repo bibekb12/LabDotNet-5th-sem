@@ -2,7 +2,7 @@
 {
     public class Question7
     {
-        public void GreateThanFifty()
+        public void GreaterThanFifty()
         {
             int[] arr = new int[10];
             Random rnd = new Random();
