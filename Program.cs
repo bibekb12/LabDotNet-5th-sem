@@ -17,6 +17,8 @@ namespace LabDotNet
             var q8 = new Question8();
             var q9 = new Question9();
             var q10 = new Question10();
+            var q11 = new Question11();
+            var q12 = new Question12();
 
 
             //calling each one
@@ -24,6 +26,8 @@ namespace LabDotNet
             q2.SumArray();
             q3.MaxMinDifference();
             q4.ReplaceNegative();
+            q11.DuplicateArray();
+            q12.PrimeNumber();
             q5.ReverseArray();
             q6.GreaterNumbers();
             q7.GreaterThanFifty();
