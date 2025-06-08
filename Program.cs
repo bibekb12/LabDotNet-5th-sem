@@ -26,14 +26,14 @@ namespace LabDotNet
             q2.SumArray();
             q3.MaxMinDifference();
             q4.ReplaceNegative();
-            q11.DuplicateArray();
-            q12.PrimeNumber();
             q5.ReverseArray();
             q6.GreaterNumbers();
             q7.GreaterThanFifty();
             q8.Factorial();
             q9.Pointer();
             q10.FizzBuzz();
+            q11.DuplicateArray();
+            q12.PrimeNumber();
 
         }
     }
